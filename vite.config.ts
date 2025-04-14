@@ -145,9 +145,9 @@ export default defineConfig((config) => {
           api: 'modern-compiler',
         },
       },
-      server: {
-        allowedHosts: ['boltdiy.paullm.com'],
-      },
+    },
+    server: {
+      allowedHosts: ['boltdiy.paullm.com', 'boltdiy-production-ce19.up.railway.app'],
     },
   };
 });
