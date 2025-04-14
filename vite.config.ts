@@ -145,6 +145,9 @@ export default defineConfig((config) => {
           api: 'modern-compiler',
         },
       },
+      server: {
+        allowedHosts: ['boltdiy.paullm.com'],
+      },
     },
   };
 });
